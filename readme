@@ -1,0 +1,16 @@
+Welcome!
+You can do Maps by your own in MS Paint,Gimp,etc...
+
+(Walls and obstacles needs to be the color white!(or change it in the newcar.py)
+//BORDER_COLOR = (255, 255, 255, 255) # Color To Crash on Hit // line 19
+
+For selfmade Tracks dont forget the Starting Position 
+(self.position = [830, 920] # Starting Position by default) // line 32
+
+To change map just insert your own PNG file in newcar.py // line 177
+game_map = pygame.image.load('yourMapHere.png').convert()
+
+You can do your own settings in the config file
+
+Have fun
+Reggaetuna
